@@ -16,7 +16,7 @@ double movingAverage(const std::vector<double>& prices, int period) {
     return sum / period;
 }
 
-// Fetching market data from a public API (Binance example)
+// Fetching market data from a public API 
 std::vector<double> getMarketData(const std::string& symbol) {
     std::vector<double> prices;
     std::string url = " " + symbol + "&interval=1m&limit=100";
